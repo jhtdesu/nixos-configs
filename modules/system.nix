@@ -36,7 +36,12 @@
 
   services.auto-cpufreq.enable = true;
   services.thermald.enable = true;
-  hardware.bluetooth.enable = false;
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+  };
+
+  services.blueman.enable = true;
 
   networking.firewall = {
     enable = true;
