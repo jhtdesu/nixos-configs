@@ -16,6 +16,9 @@
 
     # Office
     onlyoffice-desktopeditors
+
+    #Daily Use
+    vesktop
   ];
 
   xdg.desktopEntries.brave-browser = {
