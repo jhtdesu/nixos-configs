@@ -9,6 +9,7 @@
     # CLI Utilities
     btop fastfetch wget jq yazi bat fd 
     fishPlugins.fzf-fish
+    codex
 
     # GUI/Desktop
     fuzzel swaybg waypaper ghostty starship
