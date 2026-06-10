@@ -53,6 +53,6 @@
   documentation.nixos.enable = false;
   documentation.man.enable = false;
 
-  fonts.packages = with pkgs; [ nerd-fonts.jetbrains-mono corefonts ];
+  fonts.packages = with pkgs; [ jetbrains-mono ];
   fonts.fontconfig.enable = true;
 }
