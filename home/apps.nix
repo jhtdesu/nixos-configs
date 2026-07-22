@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   home.packages = with pkgs; [
     # Dev Tools
-    antigravity opencode dbeaver-bin dotnet-sdk_8 bun nodejs go
+    opencode dbeaver-bin dotnet-sdk_8 bun nodejs go
     localsend lazydocker lazygit docker-compose
     unzip
 
@@ -11,7 +11,7 @@
     google-cloud-sdk k6
 
     # CLI Utilities
-    btop fastfetch wget jq yazi bat fd 
+    btop fastfetch wget jq yazi bat fd ncdu
     fishPlugins.fzf-fish
     codex
 
