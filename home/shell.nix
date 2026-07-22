@@ -15,6 +15,7 @@
       windows = "sudo grub-reboot 'Windows Boot Manager (on /dev/nvme0n1p1)' && reboot";
       optimise = "nix-store --optimise";
       clean-dotnet = "rm -rf ~/.nuget/packages";
+      warp = "sudo warp-svc";
     };
     functions = {
       try = {

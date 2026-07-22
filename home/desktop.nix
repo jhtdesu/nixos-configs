@@ -11,13 +11,21 @@
       font-size = 11;
     };
   };
+  
   programs.neovim = {
-    enable = true;
-    extraLuaConfig = ''
-      vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-      vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-    '';
-  };
+      enable = true;
+    
+      # Adopting the new 26.05 defaults:
+      withRuby = false;
+      withPython3 = false;
+    
+      # Renamed from extraLuaConfig:
+      initLua = ''
+        vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+        vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+      '';
+    };
+
   programs.starship = {
     enable = true;
     enableFishIntegration = true;
