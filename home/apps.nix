@@ -23,7 +23,7 @@
     onlyoffice-desktopeditors
 
     #Daily Use
-    vesktop wl-clipboard
+    vesktop 
   ];
 
   xdg.desktopEntries.brave-browser = {
