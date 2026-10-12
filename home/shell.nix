@@ -8,7 +8,7 @@
       end
     '';
     shellAliases = {
-      update = "nh os switch ~/nixos-config";
+      update = "nh os switch ~/nixos-configs";
       clean = "nh clean all --keep 2 2>/dev/null";
       code = "code --ozone-platform-hint=auto";
       bios = "sudo systemctl reboot --firmware-setup";
